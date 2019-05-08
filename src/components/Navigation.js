@@ -4,14 +4,10 @@ export default class Navigation extends Component {
   render() {
     return (
       <div id="navigation" className="Navigation">
-        <nav>
-          <ul>
-            <li>Browse</li>
-            <li>Community</li>
-            <li>Store</li>
-            <li>More</li>
-          </ul>
-        </nav>
+        <ul>
+          <li>Community</li>
+          <li>Store</li>
+        </ul>
       </div>
     );
   }

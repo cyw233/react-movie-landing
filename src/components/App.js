@@ -1,18 +1,22 @@
 import React, { Component } from 'react';
-import logo from '../logo.png';
+
+import Header from './Header';
+import Title from './Title';
 
 export default class App extends Component {
 
-    constructor() {
-        super();
-    }
+  constructor() {
+    super();
+  }
 
-    render() {
-        return (
-            <div className='container'>                
-                <img className='logo' src={logo} />
-                <h1 className='title'>React Starter</h1>
-            </div>
-        );
-    }
+  render() {
+    return (
+      <div>
+        <Header />
+        <div className="container">
+          <Title />
+        </div>
+      </div>
+    );
+  }
 }

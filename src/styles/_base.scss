@@ -1,4 +1,7 @@
 body {
+    background-image: url('../assets/background.png');
+    background-size: cover;
+    background-position: center, center;
     background-color: $charcoal;
     font-family: $font-family;
 }

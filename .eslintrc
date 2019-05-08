@@ -6,12 +6,15 @@
         "es6": true,
         "node": true
     },
-    "extends": [ "eslint:recommended", "plugin:react/recommended" ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
     "parserOptions": {
         "ecmaVersion": 6,
         "ecmaFeatures": {
             "jsx": true
-          },
+        },
         "sourceType": "module"
     },
     "plugins": [
@@ -21,7 +24,7 @@
         "no-console": "off",
         "indent": [
             "error",
-            4
+            2
         ],
         "quotes": [
             "error",

@@ -38,7 +38,7 @@ ol, ul {
 }
 
 .Navigation {
-  margin-top: -10px
+  margin-top: -25px
 }
 .Navigation ul {
   display: -webkit-box;
@@ -102,7 +102,6 @@ ol, ul {
   -moz-appearance: none;
   appearance: none;
   border: 0;
-  // border: 2px solid rgba(245, 245, 241, 0.1);
   border: 2px solid $smoke;
   outline: none;
   border-radius: 37px;
@@ -147,5 +146,68 @@ ol, ul {
   }
   .Search input:focus {
     width: 50%;
+  }
+}
+
+nav {
+  background: transparent;
+	overflow: hidden;
+	padding: 1em;
+
+	.navWide {
+		display: none;
+		margin: 0 auto;
+
+		.wideDiv {
+			text-align: center;
+		}
+  }
+  
+	.navNarrow {
+		i {
+			float: left;
+			cursor: pointer;
+			color: $smoke;
+		}
+
+		.narrowLinks {
+			display: none;
+
+			a {
+        color: $smoke;
+				text-decoration: none;
+				display: block;
+				float: left;
+				clear: left;
+        padding: 4px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+      a:hover {
+        background: #e50914;
+        cursor: pointer;
+      }
+		}
+	}
+}
+
+// Adjust breakpoint as desired to select when the "hamburger" menu is
+// replaced by just the links.
+@media (min-width: 600px) {
+	nav {
+		.navWide {
+			display: block;
+		}
+		.navNarrow {
+			display: none;
+		}
+	}
+}
+
+@media (max-width: 600px) {
+  .Navigation {
+    position: absolute;
+    padding-top: 15px;
+    margin-left: 75%
   }
 }

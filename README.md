@@ -26,16 +26,16 @@ The following commandswill verify your node and npm versions
 
 ### Run
 
-- Clone _'react-starter'_ repository from GitHub
+- Clone the repository from GitHub
 
   ```bash
-  git clone https://github.com/drminnaar/react-starter.git
+  git clone https://github.com/cyw233/react-movie-landing.git
   ```
 
 - Install node modules
 
   ```bash
-  cd react-starter
+  cd react-movie-landing
   npm install
   ```
 

@@ -1,6 +1,6 @@
 # React Movie Landing Page
 
-**Amélie** movie landing page developed with:
+A landing page for the movie **Amélie** developed with:
 
 - [Node.js 8.11](https://nodejs.org/en/) - Javascript runtime environment
 - [React 16.4](https://reactjs.org/) - A Javascript library for building user interfaces

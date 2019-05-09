@@ -2,11 +2,11 @@
 
 **Amélie** movie landing page developed with:
 
-- [Node.js 8.11](https://nodejs.org/en/) - Javascript runtime
-- [React 16.4](https://reactjs.org/) - A javascript library for building user interfaces
-- [Babel 6.26](https://babeljs.io/) - A transpiler for javascript
+- [Node.js 8.11](https://nodejs.org/en/) - Javascript runtime environment
+- [React 16.4](https://reactjs.org/) - A Javascript library for building user interfaces
+- [Babel 6.26](https://babeljs.io/) - A JavaScript compiler and configurable transpiler used in web development
 - [Webpack 4.x](https://webpack.js.org/) - A module bundler
-- [SCSS](http://sass-lang.com/) - A css metalanguage
+- [SCSS](http://sass-lang.com/) - A superset of CSS language
 
 ## Getting Started
 
